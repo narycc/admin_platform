@@ -1,0 +1,36 @@
+{
+  "name": "zhlc",
+  "version": "1.0.0",
+  "description": "智慧理财管理系统",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js --name=\"zhlc\" -i max --node-args=\"--harmony\"",
+    "restart": "pm2 restart zhlc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2",
+    "nodejs"
+  ],
+  "author": "bingozhang",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "^2.0.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-favicon": "^2.0.0",
+    "koa-log4": "^2.1.0",
+    "koa-router": "^7.0.1",
+    "koa-session": "^5.0.0",
+    "lodash": "^4.17.4",
+    "mysql": "^2.12.0",
+    "node-rsa": "^0.4.2",
+    "request": "^2.79.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
