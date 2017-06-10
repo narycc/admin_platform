@@ -1,14 +1,14 @@
 /**
- * Created by wenbinzhang on 2017/1/22.
+ * Created by zpp on 2017/06/10.
  */
 'use strict';
 
 const config = {
   mysql: {
-    host: '10.8.15.15',
-    user: 'dafy',
-    password: 'dafy1024',
-    database: 'huilicai'
+    host: 'localhost',
+    user: 'zpp',
+    password: 'qwer1234',
+    database: 'platform'
   },
   listen_port: '6001'
 };

@@ -1,15 +1,16 @@
 /**
- * Created by wenbinzhang on 2017/1/22.
+ * Created by zpp on 2017/6/10.
  */
+ 
+"use strict"; 
 const config = {
   mysql: {
-    host: '10.8.15.15',
-    user: 'dafy',
-    password: 'dafy1024',
-    database: 'huilicai'
+    host: 'localhost',
+    user: 'zpp',
+    password: 'qwer1234',
+    database: 'platform'
   },
-  listen_port: '6001',
-  backend_ip: 'http://10.8.15.34:35387'//http://10.8.9.168:35387'
+  listen_port: '6001'
 };
 
 module.exports = config;

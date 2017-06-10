@@ -1,18 +1,18 @@
 {
-  "name": "zhlc",
+  "name": "platform",
   "version": "1.0.0",
-  "description": "智慧理财管理系统",
+  "description": "server code for platform",
   "main": "app.js",
   "scripts": {
-    "start": "pm2 start app.js --name=\"zhlc\" -i max --node-args=\"--harmony\"",
-    "restart": "pm2 restart zhlc",
+    "start": "pm2 start app.js --name=\"platform\" -i max --node-args=\"--harmony\"",
+    "restart": "pm2 restart platform",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "koa2",
     "nodejs"
   ],
-  "author": "bingozhang",
+  "author": "zpp",
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
